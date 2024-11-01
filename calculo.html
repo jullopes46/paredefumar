@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Qwitcher+Grypen:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Qwitcher+Grypen:wght@400;700&display=swap" rel="stylesheet">
+    <title>Fumar... Pare!!!</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <img src="./content/image/logo.png" alt="logo" id="logo">
+        <div>
+            <h1>
+                Pare de fumar
+            </h1>
+        </div>
+        <nav>
+            <ul>
+                <a href="index.html"><li>INICIO</li></a>
+                <a href="artigo.html"><li>ARTIGO</li></a>
+                <a href="https://api.whatsapp.com/send?phone=5514991791884&text=O que eu posso fazer para te ajudar a parar de fumar?."><li>CONTATO</li></a>
+            </ul>
+        </nav>
+    </header>
+    <p><h1>Calculadora de desperdicio</h1></p>
+    <main>
+        <aside>
+            <form>
+                <div>
+                    <label for="">Qual o valor do maço ?</label>
+                    <input type="number" id="valor">
+                </div>
+                <div>
+                    <label for="">Quantos cigarros você fuma por dia ?</label>
+                    <input type="number" id="quantia">
+                </div>
+                <div>
+                    <label for="">Por quantos anos você fuma ?</label>
+                    <input type="number" id="tempo">
+                </div>
+            </form>
+            <button onclick="calcular()">Calcular -></button>
+            <div id="resp">
+                <p id="cada">Aqui aparecerá o valor de cada cigarro</p>
+                <p id="custo">Custo mensal para manter o vício</p>
+                <p id="ano">A quantidade de cigarro inserida</p>
+                <p id="total">E o custo total até o presente momento</p>
+                <p id="resultado"></p>
+            </div>
+        </aside>
+    </main>
+    <script src="app.js"></script>
+    <footer>
+        &copy;Juliano Lopes
+    </footer>
+</body>
+</html>

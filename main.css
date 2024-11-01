@@ -1,0 +1,149 @@
+body{
+    margin: 0 auto;
+    width: 800px;
+    height: 600px;
+    background-color: #f9f9f8;
+    color: #2f1210;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo{
+    width: 100px;
+    margin: 1px;
+}
+
+li{
+    display: inline-block;
+    margin: 8px;
+    color: #2f1210;
+}
+
+li:hover{
+    color: #794725;
+    transition: 0.5s all;
+}
+
+h1{
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 38pt;
+}
+
+h2{
+    font-family: "DM Sans", sans-serif;
+    font-weight: bold;
+    font-size: 28pt;
+    line-height: 30pt;
+}
+
+span{
+    color: #794725;
+    font-size: 30pt;
+    text-align: center;
+}
+
+h3{
+    width: 300px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+p{
+    font-family: "Poppins", sans-serif;
+    width: 300px;
+    font-weight: 300;
+}
+
+main{
+    display: flex;
+}
+
+aside{
+    margin: 10px;
+}
+
+img{
+    width: 550px;
+    padding: 1%;
+}
+
+footer{
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#arquivo{
+    font-family: "Poppins", sans-serif;
+    font-size: 24pt;
+    color: #2f1210;
+}
+
+#arquivo:hover{
+    color: #794725;
+    transition: 0.5s all;
+}
+
+input{
+    text-align: right;
+    width: 100px;
+    border-radius: 25px;
+    border: #2f1210 solid 1px;
+    padding: 10px;
+    margin: 7px;
+}
+
+button{
+    margin: 20px;
+    padding: 10px;
+    color: #2f1210;
+    background-color: #794725;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "poppins", sans-serif;
+    font-weight: bold;
+    width: 150px;
+}
+
+button:hover{
+    background-color: #2f1210;
+    color: #794725;
+    transition: 0.5s all;
+}
+
+#contato{
+    border: #794725 solid 3px;
+    border-radius: 15px;
+    padding: 5px;
+    color: #f9f9f8;
+    background-color: #2f1210;
+}
+
+#contato:hover{
+    background-color: #794725;
+    transition: 0.5s all;
+}
+
+label{
+    display: inline-block;
+    width: 480px;
+    align-items: start;
+    font-family: "poppins", sans-serif;
+    font-size: 18pt;
+    font-weight: 320;
+}
+
+#artigo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}

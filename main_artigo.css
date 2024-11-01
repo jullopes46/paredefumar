@@ -1,0 +1,85 @@
+body{
+    margin: 0 auto;
+    width: 800px;
+    height: 600px;
+    background-color: #f9f9f8;
+    color: #2f1210;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo{
+    width: 100px;
+    margin: 1px;
+}
+
+li{
+    display: inline-block;
+    margin: 8px;
+    color: #2f1210;
+}
+
+li:hover{
+    color: #794725;
+    transition: 0.5s all;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30pt;
+}
+
+
+#logo1{
+    text-align: end;
+    font-size: 22pt;
+}
+
+h5{
+    font-size: 18pt;
+    text-align: end;
+    font-weight: 100;
+
+}
+
+#parte-1{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+#parte-2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+#imagem-1{
+    width: 500px;
+}
+
+#texto-1{
+    width: 300px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20pt;
+    line-height: 25px;
+    align-items: center;
+}
+
+#texto-2{
+    width: 300px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12pt;
+    line-height: 25px;
+    align-items: center;
+}
+
+.caminhada {
+    width: 500px;
+}
